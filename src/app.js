@@ -40,10 +40,9 @@ async function writeToFile(filePath, content) {
 
 async function generateHtmlContent(articleText) {
     const prompt = `
-    Przekształć poniższy tekst artykułu na HTML, zachowując wszystkie polskie znaki diakrytyczne (ę, ą, ś, ć, ł, ż, ź, ó, ń).
-    Strukturyzuj artykuł odpowiednimi tagami HTML. 
+    Przekształć poniższy tekst artykułu na HTML. Strukturyzuj artykuł odpowiednimi tagami HTML. 
     W miejscach, gdzie odpowiednie będą ilustracje, wstaw <img src="image_placeholder.jpg" alt="Krótki opis, co ilustracja powinna przedstawiać"> i dodaj podpis za pomocą <figcaption>.
-    Dodaj co najmniej trzy ilustracje rozmieszczone w kluczowych miejscach artykułu, z dopasowanymi podpisami.
+    Dodaj co najmniej trzy ilustracje rozmieszczone w kluczowych miejscach artykułu, z dopasowanymi podpisami. 
     Wynikowy HTML ma zawierać wyłącznie zawartość do wstawienia pomiędzy tagami <body> i </body>. Nie dołączaj znaczników <html>, <head> ani <body>.
 `.trim();
 
