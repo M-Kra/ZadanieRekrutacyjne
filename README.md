@@ -25,7 +25,7 @@ W pliku `package.json` znajdują się następujące zależności:
  
 4. **Ustaw klucz API OpenAI:**
 
-* Skopiuj swój klucz API OpenAI i zapisz go w pliku `.env`, który powinien znajdować się w folderze `config`.
+* Skopiuj swój klucz API OpenAI i zapisz go w pliku `.env`, który powinien znajdować się w utworzonym przez Ciebie folderze `config`. Folder ten znajdować musi się na tym samym poziomie co pozostałe.
 * Struktura pliku .env powinna wyglądać następująco:
 ```
   OPENAI_API_KEY=your_openai_api_key_here
