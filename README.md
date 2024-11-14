@@ -49,6 +49,8 @@ Aplikacja odczyta plik tekstowy `article.txt`, przekaże go do API OpenAI, a nas
 ## Użycie
 Po wygenerowaniu pliku `artykul.html` możesz otworzyć go w przeglądarce, aby zobaczyć wygenerowany artykuł wraz ze stylami i formatowaniem.
 
+Możesz też skopiować go do pliku `szablon.html` między tagami `<body>` i `</body>`, a następnie zapisać plik jako `podglad.html` i otworzyć w przeglądarce.
+
 ## Uwagi
 * Upewnij się, że masz poprawny klucz API w pliku `.env`, ponieważ bez niego aplikacja nie będzie mogła połączyć się z OpenAI.
 * Jeśli wystąpią jakiekolwiek błędy, sprawdź, czy wszystkie moduły są poprawnie zainstalowane i czy masz aktywne połączenie internetowe.
